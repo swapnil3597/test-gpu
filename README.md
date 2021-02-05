@@ -1,6 +1,8 @@
 # Code to Test GPU
-
 Run a premade tensorflow 2 estimator to test gpu
+
+Nvidia Driver and Cuda libraries are needed to be pre-installed.
+If not refer [this](https://www.tensorflow.org/install/gpu) link.
 
 ### Use Python version 3 (code tested on 3.7.6)
 Make sure current directory contains following files
