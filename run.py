@@ -65,13 +65,7 @@ test = pd.read_csv(test_path, names=CSV_COLUMN_NAMES, header=0)
 train_y = train.pop('Species')
 test_y = test.pop('Species')
 
-def input_evaluation_set():
-    features = {'SepalLength': np.array([6.4, 5.0]),
-                'SepalWidth':  np.array([2.8, 2.3]),
-                'PetalLength': np.array([5.6, 3.3]),
-                'PetalWidth':  np.array([2.2, 1.0])}
-    labels = np.array([2, 1])
-    return features, labels
+
 
 def input_fn(features, labels, training=True, batch_size=256):
     """An input function for training or evaluating"""
