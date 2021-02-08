@@ -1,5 +1,6 @@
 """
 Test GPU
+Author: Swapnil Masurekar
 """
 import os
 import argparse
